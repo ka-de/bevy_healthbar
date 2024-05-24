@@ -1,5 +1,5 @@
 [package]
-name = "bevy_health_bar3d"
+name = "bevy_healthbar"
 description = "Health bar for bevy implemented as a billboard shader"
 version = "3.2.1"
 edition = "2021"
@@ -17,6 +17,6 @@ bevy = { version = "0.13.1", default-features = false, features = ["bevy_pbr", "
 ordered-float = "3.9.2"
 
 [dev-dependencies]
-bevy  = "0.13.1"
+bevy  = "0.13.2"
 bevy-inspector-egui = "0.23.4"
 bevy_tweening = "0.10.0"
